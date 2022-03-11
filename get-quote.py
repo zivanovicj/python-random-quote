@@ -10,6 +10,8 @@ def primary():
    last=13
    rnd=random.randint(0, last)
    print(quotes[rnd])
+   for i in range(3):
+      print(quotes[i])
 
 if __name__== "__main__":
   primary()
